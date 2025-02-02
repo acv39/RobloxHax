@@ -324,7 +324,7 @@ local tg2 = Sec1:Toggle({
 local sl1 = Sec1:Slider({
     Name = "Sensitivity",
     Min = 0,
-    Max = 10,
+    Max = 0.75,
     decimals = 0.001,
     suffix = "S",
     callback = function(arg)
@@ -386,3 +386,4 @@ local tg4 = Sec3:Toggle({
         _G.ETeamCheck = arg
     end
 })
+--seling
