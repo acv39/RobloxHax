@@ -132,9 +132,9 @@ _G.ESPVisible = false   -- If set to true then the ESP will be visible and vice 
 _G.TextColor = Color3.fromRGB(255, 80, 10)   -- The color that the boxes would appear as.
 _G.TextSize = 14   -- The size of the text.
 _G.Center = true   -- If set to true then the script would be located at the center of the label.
-_G.Outline = true   -- If set to true then the text would have an outline.
+_G.Outline = false   -- If set to true then the text would have an outline.
 _G.OutlineColor = Color3.fromRGB(0, 0, 0)   -- The outline color of the text.
-_G.TextTransparency = 0.7   -- The transparency of the text.
+_G.TextTransparency = 1   -- The transparency of the text.
 _G.TextFont = Drawing.Fonts.UI   -- The font of the text. (UI, System, Plex, Monospace) 
 
 _G.DisableKey = nil  -- The key that disables / enables the ESP.
