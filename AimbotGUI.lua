@@ -1,4 +1,4 @@
-local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/acv39/RobloxHax/refs/heads/main/UI.lua"))()
+local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/acv39/Sountern-Ontario-Script/refs/heads/main/UI.lua"))()
 local Camera = workspace.CurrentCamera
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
@@ -31,7 +31,6 @@ FOVCircle.Color = _G.CircleColor
 FOVCircle.Visible = _G.CircleVisible
 FOVCircle.Radius = _G.CircleRadius
 FOVCircle.Transparency = _G.CircleTransparency
-FOVCircle.NumSides = _G.CircleSides
 FOVCircle.Thickness = _G.CircleThickness
 
 local function GetClosestPlayer()
@@ -95,7 +94,6 @@ RunService.RenderStepped:Connect(function()
     FOVCircle.Visible = _G.CircleVisible
     FOVCircle.Radius = _G.CircleRadius
     FOVCircle.Transparency = _G.CircleTransparency
-    FOVCircle.NumSides = _G.CircleSides
     FOVCircle.Thickness = _G.CircleThickness
 
     if Holding == true and _G.AimbotEnabled == true then
@@ -388,5 +386,3 @@ local tg4 = Sec3:Toggle({
         _G.ETeamCheck = arg
     end
 })
-
-Window:Initalize() -- DO NOT REMOVE FUCKER
